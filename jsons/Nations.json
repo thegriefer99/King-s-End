@@ -1,40 +1,48 @@
 [
 	{
-		"name": "Aliens",
-		"leaderName": "Zyxxyz",
-		"adjective": ["alien"],
-		"startBias": ["Snow"],
-		"preferredVictoryType": "Scientific",
-		
-		"startIntroPart1": "We come in peace!",
-		"startIntroPart2": "This is an overpowered joke nation just as an example for the mods feature. Set Phasers to Obliterate!!",
-		
-		"declaringWar": "Resistance is futile! Prepare to be assimilated!",
-		"attacked": "You want to play? Very funny!",
-		"defeated": "How is it possible that those Apes hurt us? The galactic senate will take care of them.",
-		"introduction": "As superior galactic entities, you are not worthy of our attention.",
-		
-		"neutralHello": "How are you doing?",
-		//"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
-		//"neutralNo": ["We absolutely refuse.","No!","I refuse."],
-		//"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+		"name": "King's End",
+		"leaderName": "Felix I D'Rosier",
+		"adjective": ["King's End"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Domination",
 
-		"hateHello": "What do you want now?",
-		//"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
-		//"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
-		//"hateYes": ["That is fine.","That is good enough.","Very well..."],
-		
-		//"afterPeace": "Very well, all that fighting was getting boring anyway.",
-		"tradeRequest": "We bestow you the honor of this trade offer.",
-		"denounced": "The accusations of primitive lifeforms are beneath us.",
-		"declaringfriendship": "Let us become like friends!",
+		"startIntroPart1": "The Crown endures.",
+		"startIntroPart2": "For generations, King's End has stood between the realms of men and the horrors beyond the Night Lands. Rule well, Felix D'Rosier, and let no kingdom forget the price of its safety.",
 
-		"outerColor": [16,16,16],
-		"innerColor": [255,200,200],
+		"declaringWar": "You were given peace. You mistook it for weakness.",
+		"attacked": "Then come. King's End has buried greater men than you.",
+		"defeated": "The Crown may fall. The Night will not care who sits upon its ruins.",
+		"introduction": "I am Felix D'Rosier, King of King's End. Speak plainly.",
+
+		"neutralHello": "You have my attention.",
+		"hateHello": "Make this brief.",
+
+		"afterPeace": "Enough blood has been spent. For now.",
+		"tradeRequest": "The Crown proposes an exchange.",
+		"denounced": "King's End has no need of your approval.",
+		"declaringfriendship": "Our realms are stronger standing together.",
+
+		"outerColor": [20, 20, 20],
+		"innerColor": [150, 0, 0],
+
 		"unique": "MANIFEST_DESTINY",
-		"cities": ["The Hive","Q'Throczan","Q'Chovex","Q'Imphet","Q'Omphead","Q'Grecoks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
-			"Q'Phulnoith","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
-			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
-			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
+
+		"cities": [
+			"King's End",
+			"Redwatch",
+			"Blackmere",
+			"Northguard",
+			"Verdun",
+			"Greyhaven",
+			"Coldharbour",
+			"Ironrest",
+			"Last Hearth",
+			"Ravenfort",
+			"White Hollow",
+			"Grimwatch",
+			"Westreach",
+			"Frostmere",
+			"Kingsgrave"
+		]
 	}
 ]
