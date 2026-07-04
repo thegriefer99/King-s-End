@@ -1,25 +1,220 @@
 [
 	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
-		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
+		"name": "Royal Granary",
+		"uniqueTo": "King's End",
+		"replaces": "Granary",
+		"cost": 60,
+		"requiredTech": "Pottery",
+		"Food": 4,
+		"Production": 2,
+		"maintenance": 1,
+		"uniques": [
+			"[+15]% [Food] [in this city]",
+			"[+1] [Production] from [Wheat] tiles [in this city]",
+			"[+1] [Production] from [Deer] tiles [in this city]"
+		]
 	},
 	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
+		"name": "Hall of Oaths",
+		"uniqueTo": "King's End",
+		"replaces": "Monument",
+		"cost": 35,
+		"requiredTech": "Agriculture",
+		"Culture": 4,
+		"Happiness": 1,
+		"Production": 1,
+		"maintenance": 0
+	},
+	{
+		"name": "Bloodied Barracks",
+		"uniqueTo": "King's End",
+		"replaces": "Barracks",
+		"cost": 65,
+		"requiredTech": "Bronze Working",
+		"Production": 3,
+		"maintenance": 1,
+		"uniques": [
+			"New [Military] units start with [30] Experience [in this city]",
+			"[+25]% Production when constructing [Military] units [in this city]"
+		]
+	},
+	{
+		"name": "Royal Library",
+		"uniqueTo": "King's End",
+		"replaces": "Library",
+		"cost": 70,
+		"requiredTech": "Writing",
+		"Science": 4,
+		"Culture": 2,
+		"maintenance": 1,
+		"uniques": [
+			"[+1] [Science] per [2] population [in this city]"
+		]
+	},
+	{
+		"name": "Blacksteel Forge",
+		"uniqueTo": "King's End",
+		"replaces": "Forge",
+		"cost": 100,
+		"requiredTech": "Metal Casting",
+		"Production": 6,
+		"maintenance": 1,
+		"uniques": [
+			"[+25]% [Production] [in this city]",
+			"[+15]% Production when constructing [Military] units [in this city]"
+		]
+	},
+	{
+		"name": "Hall of the Hounds",
+		"uniqueTo": "King's End",
+		"replaces": "Armory",
+		"cost": 120,
+		"requiredTech": "Steel",
+		"Production": 4,
+		"Culture": 3,
+		"maintenance": 2,
+		"uniques": [
+			"New [Military] units start with [45] Experience [in this city]",
+			"[+25]% Great Person generation [in this city]"
+		]
+	},
+	{
+		"name": "Royal Treasury",
+		"uniqueTo": "King's End",
+		"replaces": "Bank",
+		"cost": 160,
+		"requiredTech": "Banking",
+		"Gold": 8,
+		"Production": 3,
+		"maintenance": 0,
+		"uniques": [
+			"[+35]% [Gold] [in this city]"
+		]
+	},
+	{
+		"name": "D'Rosier Academy",
+		"uniqueTo": "King's End",
+		"replaces": "University",
+		"cost": 150,
+		"requiredTech": "Education",
+		"Science": 8,
+		"Culture": 3,
+		"maintenance": 2,
+		"uniques": [
+			"[+40]% [Science] [in this city]"
+		]
+	},
+	{
+		"name": "Imperial Arsenal",
+		"uniqueTo": "King's End",
+		"replaces": "Military Academy",
+		"cost": 220,
+		"requiredTech": "Military Science",
+		"Production": 10,
+		"maintenance": 2,
+		"uniques": [
+			"New [Military] units start with [60] Experience [in this city]",
+			"[+50]% Production when constructing [Military] units [in this city]"
+		]
+	},
+	{
+		"name": "Crown War Ministry",
+		"uniqueTo": "King's End",
+		"replaces": "Factory",
+		"cost": 250,
+		"requiredTech": "Industrialization",
+		"Production": 15,
+		"Gold": 5,
+		"maintenance": 2,
+		"uniques": [
+			"[+50]% [Production] [in this city]",
+			"[-25]% maintenance costs for [Military] units"
+		]
+	},
+	{
+		"name": "King's Citadel",
+		"uniqueTo": "King's End",
+		"replaces": "Castle",
+		"cost": 130,
+		"requiredTech": "Chivalry",
+		"Culture": 5,
+		"Happiness": 3,
+		"Production": 4,
+		"cityStrength": 15,
+		"cityHealth": 150,
+		"maintenance": 1
+	},
+	{
+		"name": "Crown Intelligence Bureau",
+		"uniqueTo": "King's End",
+		"replaces": "Constabulary",
+		"cost": 180,
+		"requiredTech": "Banking",
+		"Science": 6,
+		"Culture": 4,
+		"Gold": 4,
+		"maintenance": 1,
+		"uniques": [
+			"Stealing Technology from this city takes [50]% longer"
+		]
+	},
+	{
+		"name": "Last Bastion",
+		"uniqueTo": "King's End",
+		"replaces": "Nuclear Plant",
+		"cost": 400,
+		"requiredTech": "Nuclear Fission",
+		"Production": 30,
+		"Science": 10,
+		"Happiness": 5,
+		"maintenance": 3,
+		"uniques": [
+			"[+75]% [Production] [in this city]",
+			"[+25]% [Science] [in this city]"
+		]
+	},
+	{
+		"name": "Bloodied Command",
+		"uniqueTo": "King's End",
+		"replaces": "Broadcast Tower",
+		"cost": 350,
+		"requiredTech": "Radio",
+		"Culture": 15,
+		"Production": 10,
+		"Happiness": 4,
+		"maintenance": 2,
+		"uniques": [
+			"New [Military] units start with [75] Experience [in this city]",
+			"[+50]% Production when constructing [Military] units [in this city]"
+		]
+	},
+	{
+		"name": "The Bloodied Throne",
+		"uniqueTo": "King's End",
+		"isWonder": true,
+		"cost": 250,
+		"requiredTech": "Civil Service",
+		"Culture": 12,
+		"Happiness": 8,
+		"Production": 8,
+		"Gold": 8,
+		"uniques": [
+			"Free Social Policy",
+			"[+25]% Great Person generation [in all cities]"
+		]
+	},
+	{
+		"name": "Hall of Kings",
+		"uniqueTo": "King's End",
+		"isNationalWonder": true,
+		"cost": 300,
+		"requiredTech": "Steel",
+		"Production": 15,
+		"Culture": 8,
+		"Happiness": 5,
+		"uniques": [
+			"[+15]% [Production] [in all cities]",
+			"New [Military] units start with [30] Experience [in all cities]"
+		]
 	}
 ]
