@@ -1,0 +1,794 @@
+[
+  {
+    "name": "Royal Hound",
+    "unitType": "Sword",
+    "uniqueTo": "King's End",
+    "replaces": "Warrior",
+    "movement": 3,
+    "strength": 10,
+    "cost": 40,
+    "requiredTech": "Agriculture",
+    "obsoleteTech": "Metal Casting",
+    "upgradesTo": "Bloodied Legionnaire",
+    "promotions": [
+      "Morale",
+      "Ignore terrain cost"
+    ],
+    "uniques": [
+      "Heals [25] damage if it kills a unit"
+    ],
+    "attackSound": "nonmetalhit"
+  },
+  {
+    "name": "Bloodied Legionnaire",
+    "unitType": "Sword",
+    "uniqueTo": "King's End",
+    "replaces": "Swordsman",
+    "movement": 3,
+    "strength": 17,
+    "cost": 75,
+    "requiredTech": "Iron Working",
+    "requiredResource": "Iron",
+    "obsoleteTech": "Gunpowder",
+    "upgradesTo": "Blacksteel Guard",
+    "promotions": [
+      "Morale",
+      "Shock I",
+      "Drill I"
+    ],
+    "uniques": [
+      "[+25]% Strength <when attacking>",
+      "[+10] HP when healing"
+    ],
+    "attackSound": "metalhit"
+  },
+  {
+    "name": "Blacksteel Guard",
+    "unitType": "Sword",
+    "uniqueTo": "King's End",
+    "replaces": "Longswordsman",
+    "movement": 3,
+    "strength": 24,
+    "cost": 120,
+    "requiredTech": "Steel",
+    "requiredResource": "Iron",
+    "obsoleteTech": "Rifling",
+    "upgradesTo": "Night Warden",
+    "promotions": [
+      "Morale",
+      "March",
+      "Cover I"
+    ],
+    "uniques": [
+      "[+25]% Strength <when defending>",
+      "Heals [25] damage if it kills a unit"
+    ],
+    "attackSound": "metalhit"
+  },
+  {
+    "name": "Night Warden",
+    "unitType": "Gunpowder",
+    "uniqueTo": "King's End",
+    "replaces": "Musketman",
+    "movement": 3,
+    "strength": 25,
+    "cost": 150,
+    "requiredTech": "Gunpowder",
+    "obsoleteTech": "Rifling",
+    "upgradesTo": "Crown Rifle Corps",
+    "promotions": [
+      "Morale",
+      "March",
+      "Sentry"
+    ],
+    "uniques": [
+      "[+25]% Strength <when fighting in [Foreign Land] tiles>",
+      "Ignores terrain cost"
+    ],
+    "attackSound": "shot"
+  },
+  {
+    "name": "Crown Rifle Corps",
+    "unitType": "Gunpowder",
+    "uniqueTo": "King's End",
+    "replaces": "Rifleman",
+    "movement": 3,
+    "strength": 36,
+    "cost": 225,
+    "requiredTech": "Rifling",
+    "obsoleteTech": "Replaceable Parts",
+    "upgradesTo": "Black Guard",
+    "promotions": [
+      "Morale",
+      "March",
+      "Cover I"
+    ],
+    "uniques": [
+      "[+25]% Strength <when attacking>",
+      "[+1] Sight"
+    ],
+    "attackSound": "shot"
+  },
+  {
+    "name": "Black Guard",
+    "unitType": "Gunpowder",
+    "uniqueTo": "King's End",
+    "replaces": "Infantry",
+    "movement": 3,
+    "strength": 50,
+    "cost": 320,
+    "requiredTech": "Replaceable Parts",
+    "upgradesTo": "Royal Expeditionary Corps",
+    "promotions": [
+      "Morale",
+      "March",
+      "Blitz"
+    ],
+    "uniques": [
+      "[+25]% Strength <when defending>",
+      "Heals [25] damage if it kills a unit"
+    ],
+    "attackSound": "shot"
+  },
+  {
+    "name": "Royal Expeditionary Corps",
+    "unitType": "Gunpowder",
+    "uniqueTo": "King's End",
+    "replaces": "Mechanized Infantry",
+    "movement": 5,
+    "strength": 72,
+    "cost": 375,
+    "requiredTech": "Electronics",
+    "promotions": [
+      "Morale",
+      "March",
+      "Blitz",
+      "Ignore terrain cost"
+    ],
+    "uniques": [
+      "[+25]% Strength <when fighting in [Foreign Land] tiles>",
+      "Can move after attacking"
+    ],
+    "attackSound": "tankshot"
+  },
+  {
+    "name": "Redwatch Archer",
+    "unitType": "Archery",
+    "uniqueTo": "King's End",
+    "replaces": "Archer",
+    "movement": 2,
+    "strength": 5,
+    "rangedStrength": 10,
+    "range": 2,
+    "cost": 40,
+    "requiredTech": "Archery",
+    "obsoleteTech": "Machinery",
+    "upgradesTo": "King's Longbow",
+    "promotions": [
+      "Accuracy I",
+      "Barrage I"
+    ],
+    "attackSound": "arrow"
+  },
+  {
+    "name": "King's Longbow",
+    "unitType": "Archery",
+    "uniqueTo": "King's End",
+    "replaces": "Crossbowman",
+    "movement": 3,
+    "strength": 14,
+    "rangedStrength": 23,
+    "range": 3,
+    "cost": 120,
+    "requiredTech": "Machinery",
+    "obsoleteTech": "Rifling",
+    "upgradesTo": "Crown Rifle Corps",
+    "promotions": [
+      "Extended Range",
+      "Indirect Fire",
+      "Accuracy I"
+    ],
+    "uniques": [
+      "[-25]% Strength <vs cities> <when attacking>"
+    ],
+    "attackSound": "arrow"
+  },
+  {
+    "name": "Iron Pike",
+    "unitType": "Sword",
+    "uniqueTo": "King's End",
+    "replaces": "Spearman",
+    "movement": 3,
+    "strength": 11,
+    "cost": 56,
+    "requiredTech": "Bronze Working",
+    "obsoleteTech": "Civil Service",
+    "upgradesTo": "Crown Pike",
+    "promotions": [
+      "Formation I",
+      "Morale"
+    ],
+    "uniques": [
+      "[+150]% Strength <vs [Mounted] units>"
+    ],
+    "attackSound": "metalhit"
+  },
+  {
+    "name": "Crown Pike",
+    "unitType": "Sword",
+    "uniqueTo": "King's End",
+    "replaces": "Pikeman",
+    "movement": 3,
+    "strength": 17,
+    "cost": 90,
+    "requiredTech": "Civil Service",
+    "obsoleteTech": "Rifling",
+    "upgradesTo": "King's Lancer",
+    "promotions": [
+      "Formation II",
+      "Morale"
+    ],
+    "uniques": [
+      "[+150]% Strength <vs [Mounted] units>"
+    ],
+    "attackSound": "metalhit"
+  },
+  {
+    "name": "King's Lancer",
+    "unitType": "Mounted",
+    "uniqueTo": "King's End",
+    "replaces": "Lancer",
+    "movement": 6,
+    "strength": 31,
+    "cost": 185,
+    "requiredTech": "Metallurgy",
+    "requiredResource": "Horses",
+    "obsoleteTech": "Combustion",
+    "upgradesTo": "Black Lance",
+    "promotions": [
+      "Formation II",
+      "Mobility"
+    ],
+    "uniques": [
+      "Can move after attacking",
+      "No defensive terrain bonus",
+      "[+100]% Strength <vs [Mounted] units>"
+    ],
+    "attackSound": "horse"
+  },
+  {
+    "name": "Black Lance",
+    "unitType": "Gunpowder",
+    "uniqueTo": "King's End",
+    "replaces": "Anti-Tank Gun",
+    "movement": 3,
+    "strength": 45,
+    "cost": 270,
+    "requiredTech": "Replaceable Parts",
+    "upgradesTo": "Night Talon",
+    "promotions": [
+      "Ambush II",
+      "Morale"
+    ],
+    "uniques": [
+      "[+150]% Strength <vs [Armored] units>"
+    ],
+    "attackSound": "machinegun"
+  },
+  {
+    "name": "Night Talon",
+    "unitType": "Helicopter",
+    "uniqueTo": "King's End",
+    "replaces": "Helicopter Gunship",
+    "movement": 8,
+    "strength": 70,
+    "cost": 425,
+    "requiredTech": "Rocketry",
+    "requiredResource": "Aluminum",
+    "promotions": [
+      "Mobility II",
+      "Anti-Armor II",
+      "Air Repair"
+    ],
+    "uniques": [
+      "[+150]% Strength <vs [Armored] units>",
+      "No defensive terrain bonus",
+      "Can move after attacking",
+      "All tiles cost 1 movement",
+      "Ignores Zone of Control",
+      "Unable to capture cities"
+    ],
+    "attackSound": "machinegun"
+  },
+  {
+    "name": "D'Rosier Horseguard",
+    "unitType": "Mounted",
+    "uniqueTo": "King's End",
+    "replaces": "Horseman",
+    "movement": 5,
+    "strength": 15,
+    "cost": 75,
+    "requiredTech": "Horseback Riding",
+    "requiredResource": "Horses",
+    "obsoleteTech": "Chivalry",
+    "upgradesTo": "Crown Knight",
+    "promotions": [
+      "Morale",
+      "Charge"
+    ],
+    "uniques": [
+      "Can move after attacking",
+      "No defensive terrain bonus",
+      "[-33]% Strength <vs cities> <when attacking>"
+    ],
+    "attackSound": "horse"
+  },
+  {
+    "name": "Crown Knight",
+    "unitType": "Mounted",
+    "uniqueTo": "King's End",
+    "replaces": "Knight",
+    "movement": 5,
+    "strength": 27,
+    "cost": 120,
+    "requiredTech": "Chivalry",
+    "requiredResource": "Horses",
+    "obsoleteTech": "Military Science",
+    "upgradesTo": "Royal Cavalry",
+    "promotions": [
+      "Morale",
+      "Charge",
+      "Mobility"
+    ],
+    "uniques": [
+      "Can move after attacking",
+      "No defensive terrain bonus"
+    ],
+    "attackSound": "horse"
+  },
+  {
+    "name": "Royal Cavalry",
+    "unitType": "Mounted",
+    "uniqueTo": "King's End",
+    "replaces": "Cavalry",
+    "movement": 5,
+    "strength": 36,
+    "cost": 225,
+    "requiredTech": "Military Science",
+    "requiredResource": "Horses",
+    "obsoleteTech": "Combustion",
+    "upgradesTo": "Crownsteel Tank",
+    "promotions": [
+      "Charge",
+      "Blitz",
+      "Mobility"
+    ],
+    "uniques": [
+      "Can move after attacking",
+      "No defensive terrain bonus",
+      "[+50]% Strength <vs [Wounded] units>"
+    ],
+    "attackSound": "cavalry"
+  },
+  {
+    "name": "Crownsteel Tank",
+    "unitType": "Armored",
+    "uniqueTo": "King's End",
+    "replaces": "Tank",
+    "movement": 7,
+    "strength": 70,
+    "cost": 375,
+    "requiredTech": "Combustion",
+    "requiredResource": "Oil",
+    "upgradesTo": "Dreadcrown Armor",
+    "promotions": [
+      "Blitz",
+      "Mobility",
+      "Morale"
+    ],
+    "uniques": [
+      "Can move after attacking",
+      "No defensive terrain bonus"
+    ],
+    "attackSound": "tankshot"
+  },
+  {
+    "name": "Dreadcrown Armor",
+    "unitType": "Armored",
+    "uniqueTo": "King's End",
+    "replaces": "Modern Armor",
+    "movement": 7,
+    "strength": 110,
+    "cost": 425,
+    "requiredTech": "Lasers",
+    "requiredResource": "Aluminum",
+    "upgradesTo": "Last King",
+    "promotions": [
+      "Blitz",
+      "Mobility",
+      "Morale"
+    ],
+    "uniques": [
+      "Can move after attacking",
+      "No defensive terrain bonus",
+      "[+33]% Strength <vs cities>"
+    ],
+    "attackSound": "tankshot"
+  },
+  {
+    "name": "Last King",
+    "unitType": "Armored",
+    "uniqueTo": "King's End",
+    "replaces": "Giant Death Robot",
+    "movement": 5,
+    "strength": 200,
+    "cost": 425,
+    "requiredTech": "Nuclear Fusion",
+    "requiredResource": "Uranium",
+    "promotions": [
+      "Blitz",
+      "March",
+      "Morale"
+    ],
+    "uniques": [
+      "Can move after attacking",
+      "No defensive terrain bonus",
+      "[+50]% Strength <vs cities>"
+    ],
+    "attackSound": "gdrAttack"
+  },
+  {
+    "name": "Red Ram",
+    "unitType": "Siege",
+    "uniqueTo": "King's End",
+    "replaces": "Catapult",
+    "movement": 3,
+    "strength": 7,
+    "rangedStrength": 17,
+    "cost": 75,
+    "requiredTech": "Mathematics",
+    "requiredResource": "Iron",
+    "obsoleteTech": "Physics",
+    "upgradesTo": "King's Trebuchet",
+    "promotions": [
+      "Volley",
+      "Accuracy I"
+    ],
+    "uniques": [
+      "[+100]% Strength <vs cities> <when attacking>",
+      "No defensive terrain bonus",
+      "Must set up to ranged attack",
+      "[-1] Sight"
+    ],
+    "attackSound": "throw"
+  },
+  {
+    "name": "King's Trebuchet",
+    "unitType": "Siege",
+    "uniqueTo": "King's End",
+    "replaces": "Trebuchet",
+    "movement": 3,
+    "strength": 11,
+    "rangedStrength": 24,
+    "range": 3,
+    "cost": 120,
+    "requiredTech": "Physics",
+    "requiredResource": "Iron",
+    "obsoleteTech": "Chemistry",
+    "upgradesTo": "Crown Cannon",
+    "promotions": [
+      "Volley",
+      "Indirect Fire"
+    ],
+    "uniques": [
+      "[+100]% Strength <vs cities> <when attacking>",
+      "No defensive terrain bonus",
+      "Must set up to ranged attack"
+    ],
+    "attackSound": "throw"
+  },
+  {
+    "name": "Crown Cannon",
+    "unitType": "Siege",
+    "uniqueTo": "King's End",
+    "replaces": "Cannon",
+    "movement": 3,
+    "strength": 18,
+    "rangedStrength": 38,
+    "range": 3,
+    "cost": 185,
+    "requiredTech": "Chemistry",
+    "obsoleteTech": "Dynamite",
+    "upgradesTo": "Black Thunder",
+    "promotions": [
+      "Volley",
+      "Indirect Fire"
+    ],
+    "uniques": [
+      "[+75]% Strength <vs cities> <when attacking>",
+      "No defensive terrain bonus"
+    ],
+    "attackSound": "cannon"
+  },
+  {
+    "name": "Black Thunder",
+    "unitType": "Siege",
+    "uniqueTo": "King's End",
+    "replaces": "Artillery",
+    "movement": 3,
+    "strength": 23,
+    "rangedStrength": 48,
+    "range": 4,
+    "cost": 320,
+    "requiredTech": "Dynamite",
+    "upgradesTo": "King's Wrath",
+    "promotions": [
+      "Indirect Fire",
+      "Logistics",
+      "Volley"
+    ],
+    "uniques": [
+      "[+50]% Strength <vs cities> <when attacking>",
+      "No defensive terrain bonus"
+    ],
+    "attackSound": "artillery"
+  },
+  {
+    "name": "King's Wrath",
+    "unitType": "Siege",
+    "uniqueTo": "King's End",
+    "replaces": "Rocket Artillery",
+    "movement": 5,
+    "strength": 35,
+    "rangedStrength": 68,
+    "range": 4,
+    "cost": 425,
+    "requiredTech": "Rocketry",
+    "requiredResource": "Aluminum",
+    "promotions": [
+      "Indirect Fire",
+      "Logistics",
+      "Volley"
+    ],
+    "uniques": [
+      "[+50]% Strength <vs cities> <when attacking>",
+      "No defensive terrain bonus"
+    ],
+    "attackSound": "artillery"
+  },
+  {
+    "name": "Blackwake",
+    "unitType": "Ranged Water",
+    "uniqueTo": "King's End",
+    "replaces": "Trireme",
+    "movement": 6,
+    "strength": 10,
+    "rangedStrength": 8,
+    "cost": 56,
+    "requiredTech": "Sailing",
+    "obsoleteTech": "Astronomy",
+    "upgradesTo": "Dread Caravel",
+    "promotions": [
+      "Targeting I",
+      "Supply"
+    ],
+    "uniques": [
+      "Cannot enter ocean tiles",
+      "[+1] Sight"
+    ],
+    "attackSound": "nonmetalhit"
+  },
+  {
+    "name": "Dread Caravel",
+    "unitType": "Ranged Water",
+    "uniqueTo": "King's End",
+    "replaces": "Caravel",
+    "movement": 8,
+    "strength": 24,
+    "rangedStrength": 13,
+    "cost": 120,
+    "requiredTech": "Astronomy",
+    "obsoleteTech": "Combustion",
+    "upgradesTo": "Crown Destroyer",
+    "promotions": [
+      "Targeting II",
+      "Supply"
+    ],
+    "uniques": [
+      "[+3] Sight"
+    ],
+    "attackSound": "cannon"
+  },
+  {
+    "name": "Crown Frigate",
+    "unitType": "Ranged Water",
+    "uniqueTo": "King's End",
+    "replaces": "Frigate",
+    "movement": 7,
+    "strength": 40,
+    "rangedStrength": 25,
+    "range": 3,
+    "cost": 185,
+    "requiredTech": "Navigation",
+    "requiredResource": "Iron",
+    "obsoleteTech": "Combustion",
+    "upgradesTo": "Crown Destroyer",
+    "promotions": [
+      "Bombardment II",
+      "Indirect Fire",
+      "Supply"
+    ],
+    "attackSound": "shipCannonVolley"
+  },
+  {
+    "name": "Crown Destroyer",
+    "unitType": "Melee Water",
+    "uniqueTo": "King's End",
+    "replaces": "Destroyer",
+    "movement": 8,
+    "interceptRange": 2,
+    "rangedStrength": 30,
+    "strength": 52,
+    "cost": 375,
+    "requiredTech": "Combustion",
+    "promotions": [
+      "Boarding Party III",
+      "Supply",
+      "Mobility"
+    ],
+    "uniques": [
+      "Can see invisible [Submarine] units",
+      "[60]% chance to intercept air attacks",
+      "[+150]% Strength <vs [Submarine] units>"
+    ],
+    "attackSound": "shipguns"
+  },
+  {
+    "name": "Iron Crown",
+    "unitType": "Ranged Water",
+    "uniqueTo": "King's End",
+    "replaces": "Battleship",
+    "movement": 6,
+    "strength": 80,
+    "rangedStrength": 48,
+    "range": 4,
+    "cost": 375,
+    "requiredTech": "Telegraph",
+    "requiredResource": "Oil",
+    "promotions": [
+      "Indirect Fire",
+      "Logistics",
+      "Supply"
+    ],
+    "uniques": [
+      "[+50]% Strength <vs cities>"
+    ],
+    "attackSound": "shipguns"
+  },
+  {
+    "name": "Dreadfleet Cruiser",
+    "unitType": "Ranged Water",
+    "uniqueTo": "King's End",
+    "replaces": "Missile Cruiser",
+    "movement": 9,
+    "strength": 85,
+    "rangedStrength": 42,
+    "range": 4,
+    "interceptRange": 3,
+    "cost": 425,
+    "requiredTech": "Robotics",
+    "requiredResource": "Aluminum",
+    "promotions": [
+      "Indirect Fire",
+      "Logistics",
+      "Supply"
+    ],
+    "uniques": [
+      "[100]% chance to intercept air attacks",
+      "Can see invisible [Submarine] units",
+      "Can carry [4] [Missile] units",
+      "[+150]% Strength <vs [Submarine] units>"
+    ],
+    "attackSound": "shipguns"
+  },
+  {
+    "name": "Nightwing",
+    "unitType": "Fighter",
+    "uniqueTo": "King's End",
+    "replaces": "Fighter",
+    "movement": 1,
+    "strength": 55,
+    "rangedStrength": 55,
+    "range": 10,
+    "interceptRange": 10,
+    "cost": 375,
+    "requiredTech": "Flight",
+    "requiredResource": "Oil",
+    "upgradesTo": "Black Sun",
+    "promotions": [
+      "Interception II",
+      "Dogfighting II",
+      "Sortie"
+    ],
+    "uniques": [
+      "[100]% chance to intercept air attacks",
+      "[+200]% Strength <vs [Bomber] units>",
+      "[+125]% Strength <vs [Helicopter] units>"
+    ],
+    "attackSound": "machinegun"
+  },
+  {
+    "name": "Black Sun",
+    "unitType": "Fighter",
+    "uniqueTo": "King's End",
+    "replaces": "Jet Fighter",
+    "movement": 1,
+    "strength": 85,
+    "rangedStrength": 85,
+    "range": 14,
+    "interceptRange": 14,
+    "cost": 425,
+    "requiredTech": "Lasers",
+    "requiredResource": "Aluminum",
+    "promotions": [
+      "Interception III",
+      "Dogfighting III",
+      "Sortie",
+      "Air Repair"
+    ],
+    "uniques": [
+      "[100]% chance to intercept air attacks",
+      "[+200]% Strength <vs [Bomber] units>",
+      "[+150]% Strength <vs [Helicopter] units>"
+    ],
+    "attackSound": "jetgun"
+  },
+  {
+    "name": "Crown Bomber",
+    "unitType": "Bomber",
+    "uniqueTo": "King's End",
+    "replaces": "Bomber",
+    "movement": 1,
+    "strength": 65,
+    "rangedStrength": 72,
+    "range": 13,
+    "cost": 375,
+    "requiredTech": "Radar",
+    "requiredResource": "Oil",
+    "upgradesTo": "Nightfall Bomber",
+    "promotions": [
+      "Siege II",
+      "Evasion",
+      "Operational Range"
+    ],
+    "uniques": [
+      "[-20]% Strength <vs [Water] units>"
+    ],
+    "attackSound": "bombing"
+  },
+  {
+    "name": "Nightfall Bomber",
+    "unitType": "Bomber",
+    "uniqueTo": "King's End",
+    "replaces": "Stealth Bomber",
+    "movement": 2,
+    "strength": 105,
+    "rangedStrength": 115,
+    "range": 24,
+    "cost": 425,
+    "requiredTech": "Stealth",
+    "requiredResource": "Aluminum",
+    "promotions": [
+      "Siege III",
+      "Logistics",
+      "Air Repair"
+    ],
+    "uniques": [
+      "Damage taken from interception reduced by [100]%",
+      "Cannot be carried by [Carrier] units",
+      "[+5] Sight",
+      "Can see over obstacles"
+    ],
+    "attackSound": "bombing"
+  }
+]
